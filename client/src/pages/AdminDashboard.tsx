@@ -11,7 +11,7 @@ import { Trash2, Edit, Plus } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogForm from "@/components/BlogForm";
-import type { Post } from "@/shared/schema";
+import type { Post } from "@shared/schema";
 
 export default function AdminDashboard() {
   const { posts, loading: postsLoading } = usePosts();
