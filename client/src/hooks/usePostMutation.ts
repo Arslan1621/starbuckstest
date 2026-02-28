@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { Post, InsertPost } from "@/shared/schema";
+import type { Post, InsertPost } from "@shared/schema";
 import axios from "axios";
 
 export function usePostMutation() {
