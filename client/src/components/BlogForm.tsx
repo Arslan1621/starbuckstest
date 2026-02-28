@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { insertPostSchema, type Post } from "@/shared/schema";
+import { insertPostSchema, type Post } from "@shared/schema";
 import { usePostMutation } from "@/hooks/usePostMutation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
